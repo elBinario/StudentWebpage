@@ -4,7 +4,7 @@ html, body {
 	overflow: hidden;
 }
 body {
-	background: black url("background.jpg") repeat top center;
+	background: black url("images/background.png") repeat top center;
 	background-size: contain;
 }
 div {
@@ -17,13 +17,13 @@ h1,h5 {
 }
 a:link, a:visited {
 	text-decoration: none;
-	color: #FFF;
+	color: transparent;
+	
 }
 
 #text {
 	background-color: transparent;
 	font-family: 'Montserrat', sans-serif;
-	color: #FFF;
 	font-size: 50px;
 	padding: 0;
 	position: relative;
@@ -31,8 +31,16 @@ a:link, a:visited {
 	top: 40%;
 	text-align: center;
 }
-h5 {
-	color: #000;
+#footer {
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFF;
+	font-size: 20px;
+	padding: 0;
+	position: relative;
+	left: 0%;
+	top: 70%;
+	text-align: center;
 }
 a:hover {
 	color: #000;
